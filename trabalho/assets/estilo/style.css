@@ -147,7 +147,3 @@ body{
 .table-center thead{
     background-color: rgba(0,0,0,.5);
 }
-
-.table-center tbody tr:nth-child(odd){
-    background-color: rgba(0,102,255,.5);
-}
