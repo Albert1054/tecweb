@@ -51,9 +51,11 @@ $number= count($tabela)-(count($tabela) /2);
                     </tr>
                     <?php while($i<=$number){
                             if(isset($tabela["name-$i"])){
+                                echo "<tr>";
                                 echo "<td class='row'>&nbsp;</td>";
                                 echo "<td class='idade'>&nbsp;</td>";
                                 echo "<td class='row'>".$tabela["name-$i"]." - ".$tabela["idade-$i"]." anos";
+                                echo "</tr>";
                             }
                             $i++;
                         } 
